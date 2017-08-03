@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/isak/University/UCL_CSML/Modules/Advanced_methods_in_ML/Assignments/assignment-1-tensorflow-nn-models-IsakFalk/code/Part1/../../save/tf/c/model_1c.ckpt"
+all_model_checkpoint_paths: "/home/isak/University/UCL_CSML/Modules/Advanced_methods_in_ML/Assignments/assignment-1-tensorflow-nn-models-IsakFalk/code/Part1/../../save/tf/c/model_1c.ckpt"

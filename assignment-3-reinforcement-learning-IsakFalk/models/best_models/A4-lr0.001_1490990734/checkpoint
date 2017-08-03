@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/ubuntu/assignment-3-reinforcement-learning-IsakFalk/models/save/A4-lr0.001_1490990734/model.ckpt"
+all_model_checkpoint_paths: "/home/ubuntu/assignment-3-reinforcement-learning-IsakFalk/models/save/A4-lr0.001_1490990734/model.ckpt"

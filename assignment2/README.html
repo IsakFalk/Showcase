@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>README.html</title>
+
+</head>
+
+<body>
+
+<h1>Name: John Isak Texas Falk</h1>
+
+<h1>Student Number: 16095283</h1>
+
+<h1>Assignment 2: inpainting datasets</h1>
+
+<h1>Setup</h1>
+
+<h2>Python version</h2>
+
+<p>Version 2.7</p>
+
+<h2>Library dependencies</h2>
+
+<p>Tensorflow 0.12.1
+matplotlib 2.0.0
+seaborn 0.7.1
+tqdm 4.11.1 (progress bar, small library)
+numpy: 1.11.3
+scipy: 0.18.1</p>
+
+<h2>Installing from conda</h2>
+
+<p>Assuming that you have conda installed on the computer, installing the environment is straightforward. Without being in a virtual environment, from the command line type the command</p>
+
+<p><code>
+conda env create -f environment.yml
+</code></p>
+
+<p>from the parent directory. This will create the same environment as mine which you can remove after you are done.</p>
+
+<h1>Directories</h1>
+
+<h2>Models</h2>
+
+<p>The model directories use a naming convention of '{name}{cell type}{number of units}-lr{learning rate}_bs{batch size}_dc{decay rate}_{timestamp}'.</p>
+
+<h2>Code</h2>
+
+<p>The code directory consist of a data folder, a src folder and a Makefile.</p>
+
+<h3>Makefile</h3>
+
+<p>The Makefile have two commands, both for evaluating the test/train accuracy/loss for task1 and task2. These are the following:</p>
+
+<p><code>
+make task1
+</code></p>
+
+<p>and</p>
+
+<p><code>
+make task2
+</code></p>
+
+<h3>data</h3>
+
+<p>The data folder consist of all the data needed to train and evaluate the models. the raw folder in the data folder holds the raw mnist data sets downloaded from Yann LeCun's website. If you want to do anything with the data, make sure to download the data (this should be done automatically if the zipped data is not found) or copy the data to this folder.</p>
+
+<p>inpainting_data consist of the .npy files for task 3. The saved .npy files for task 3b are called 'optimal_inpaintings_1pixel_patch.npy' and 'optimal_inpaintings_2x2pixel_patch.npy'.</p>
+
+<h3>src</h3>
+
+<p>Source directory consisting of all of the relevant python (and other) files for the assignment.</p>
+
+<h4>preprocess.py</h4>
+
+<p>File keeping all of the preprocessing functions, mainly the binarize function.</p>
+
+<h4>SETTINGS.py</h4>
+
+<p>Definitions of variables and constants. Important as it defines the different paths with respect to the system at use.</p>
+
+<h4>task1.py</h4>
+
+<p>Train any of the models for task 1. Relies on the auxiliary functions and classes defined in tf_utils1.py</p>
+
+<h4>tf_utils1.py</h4>
+
+<p>Helper functions for task1.py</p>
+
+<h4>task2a.py</h4>
+
+<p>Train any of the models for task 2. Relies on the auxiliary functions and classes defined in tf_utils2.py</p>
+
+<h4>task2b.py</h4>
+
+<p>File consisting of all of the needed function to generate all of the possible images and cross entropies for task 2b.</p>
+
+<h4>task3.py</h4>
+
+<p>File consisting of all of the needed functions to generate the inpaintings and cross entropies for task3 b.</p>
+
+<h4>visualize.py</h4>
+
+<p>Not used.</p>
+
+<h2>Report</h2>
+
+<h3>16095283_report.pdf</h3>
+
+<p>The report in pdf format.</p>
+
+<h3>report_files</h3>
+
+<p>All of the files used to generate the report including image files and output text files.</p>
+
+</body>
+</html>

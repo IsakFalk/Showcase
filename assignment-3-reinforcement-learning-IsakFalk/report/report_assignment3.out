@@ -1,0 +1,19 @@
+\BOOKMARK [1][-]{section.1}{Problem A: Cart-pole}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Generate three trajectories under a uniform random policy. Report the episode lengths and the return from the initial state.}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{Generate 100 episodes under the above random policy, and report the mean and standard deviation of the episode lengths and the return from the starting state.}{section.1}% 3
+\BOOKMARK [2][-]{subsection.1.3}{Collect 2000 episodes under a uniformly random policy and implement batch Q-learning to learn to control the cart-pole.}{section.1}% 4
+\BOOKMARK [3][-]{subsubsection.1.3.1}{Linear}{subsection.1.3}% 5
+\BOOKMARK [3][-]{subsubsection.1.3.2}{100-hidden units MLP}{subsection.1.3}% 6
+\BOOKMARK [2][-]{subsection.1.4}{Function approximation using Q-learning.}{section.1}% 7
+\BOOKMARK [2][-]{subsection.1.5}{Network with ReLUs and different hidden units.}{section.1}% 8
+\BOOKMARK [2][-]{subsection.1.6}{Experience replay.}{section.1}% 9
+\BOOKMARK [2][-]{subsection.1.7}{Compare using a target network}{section.1}% 10
+\BOOKMARK [2][-]{subsection.1.8}{Compare Sarsa to previous performance}{section.1}% 11
+\BOOKMARK [1][-]{section.2}{Problem B: Atari games}{}% 12
+\BOOKMARK [2][-]{subsection.2.1}{Report the score and frame counts from the three games under a random policy, evaluated on 100 episodes. Report both the average and the standard deviation.}{section.2}% 13
+\BOOKMARK [2][-]{subsection.2.2}{Report performance on the three games from an initialized but untrained Q-network, evaluated on 100 episodes. Explain why the performance can be different from part one.}{section.2}% 14
+\BOOKMARK [2][-]{subsection.2.3}{Plot the losses of your agent during the course of training. Discuss the shapes of the curves and why they might differ from supervised learning.}{section.2}% 15
+\BOOKMARK [3][-]{subsubsection.2.3.1}{Pong}{subsection.2.3}% 16
+\BOOKMARK [3][-]{subsubsection.2.3.2}{Ms Pacman}{subsection.2.3}% 17
+\BOOKMARK [3][-]{subsubsection.2.3.3}{Boxing}{subsection.2.3}% 18
+\BOOKMARK [2][-]{subsection.2.4}{Report the final performance in terms of cumulative undiscounted rewards per episode of your trained agent, averaged over 100 episodes. Describe any modifications to the above by which you were able to improve performance in this limited data regime.}{section.2}% 19

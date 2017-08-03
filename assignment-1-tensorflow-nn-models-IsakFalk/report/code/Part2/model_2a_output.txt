@@ -1,0 +1,12 @@
+Epoch: 1, Train error: 0.10449, test error: 0.09820
+Epoch: 10, Train error: 0.08035, test error: 0.07770
+Epoch: 20, Train error: 0.07385, test error: 0.07730
+Epoch: 30, Train error: 0.07211, test error: 0.07740
+Epoch: 40, Train error: 0.07040, test error: 0.07520
+Epoch: 50, Train error: 0.06922, test error: 0.07620
+Epoch: 60, Train error: 0.06765, test error: 0.07380
+Epoch: 70, Train error: 0.06747, test error: 0.07400
+Epoch: 80, Train error: 0.06758, test error: 0.07380
+Epoch: 90, Train error: 0.06673, test error: 0.07390
+Epoch: 100, Train error: 0.06642, test error: 0.07430
+Epoch: 107, Train error: 0.06604, test error: 0.07300

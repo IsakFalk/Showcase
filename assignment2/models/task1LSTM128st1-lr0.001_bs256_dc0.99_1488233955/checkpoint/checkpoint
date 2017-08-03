@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/isak/assignment-2-recurrent-models-IsakFalk/data/save/testLSTM128st1-lr0.001_bs256_dc0.99_1488233955/checkpoint/testLSTM128st1-lr0.001_bs256_dc0.99_1488233955.ckpt"
+all_model_checkpoint_paths: "/home/isak/assignment-2-recurrent-models-IsakFalk/data/save/testLSTM128st1-lr0.001_bs256_dc0.99_1488233955/checkpoint/testLSTM128st1-lr0.001_bs256_dc0.99_1488233955.ckpt"

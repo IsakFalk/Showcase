@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/ubuntu/assignment-2-recurrent-models-IsakFalk/data/save/task2GRU128st1-lr0.001_bs256_dc0.99_1488496514/checkpoint/task2GRU128st1-lr0.001_bs256_dc0.99_1488496514.ckpt"
+all_model_checkpoint_paths: "/home/ubuntu/assignment-2-recurrent-models-IsakFalk/data/save/task2GRU128st1-lr0.001_bs256_dc0.99_1488496514/checkpoint/task2GRU128st1-lr0.001_bs256_dc0.99_1488496514.ckpt"

@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/isak/assignment-2-recurrent-models-IsakFalk/data/save/testGRU32st1-lr0.001_bs256_dc0.99_1488395608/checkpoint/testGRU32st1-lr0.001_bs256_dc0.99_1488395608.ckpt"
+all_model_checkpoint_paths: "/home/isak/assignment-2-recurrent-models-IsakFalk/data/save/testGRU32st1-lr0.001_bs256_dc0.99_1488395608/checkpoint/testGRU32st1-lr0.001_bs256_dc0.99_1488395608.ckpt"

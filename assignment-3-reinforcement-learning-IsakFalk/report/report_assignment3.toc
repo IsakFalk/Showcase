@@ -1,0 +1,22 @@
+\contentsline {section}{\numberline {1}Problem A: Cart-pole}{3}{section.1}
+\contentsline {paragraph}{Note on value function representation}{3}{section*.2}
+\contentsline {paragraph}{How statistics was collected}{3}{section*.3}
+\contentsline {paragraph}{Hyperparameters}{3}{section*.4}
+\contentsline {subsection}{\numberline {1.1}Generate three trajectories under a uniform random policy. Report the episode lengths and the return from the initial state.}{3}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Generate 100 episodes under the above random policy, and report the mean and standard deviation of the episode lengths and the return from the starting state.}{4}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}Collect 2000 episodes under a uniformly random policy and implement batch Q-learning to learn to control the cart-pole.}{4}{subsection.1.3}
+\contentsline {subsubsection}{\numberline {1.3.1}Linear}{4}{subsubsection.1.3.1}
+\contentsline {subsubsection}{\numberline {1.3.2}100-hidden units MLP}{6}{subsubsection.1.3.2}
+\contentsline {subsection}{\numberline {1.4}Function approximation using Q-learning.}{8}{subsection.1.4}
+\contentsline {subsection}{\numberline {1.5}Network with ReLUs and different hidden units.}{9}{subsection.1.5}
+\contentsline {subsection}{\numberline {1.6}Experience replay.}{11}{subsection.1.6}
+\contentsline {subsection}{\numberline {1.7}Compare using a target network}{12}{subsection.1.7}
+\contentsline {subsection}{\numberline {1.8}Compare Sarsa to previous performance}{13}{subsection.1.8}
+\contentsline {section}{\numberline {2}Problem B: Atari games}{14}{section.2}
+\contentsline {subsection}{\numberline {2.1}Report the score and frame counts from the three games under a random policy, evaluated on 100 episodes. Report both the average and the standard deviation.}{14}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Report performance on the three games from an initialized but untrained Q-network, evaluated on 100 episodes. Explain why the performance can be different from part one.}{14}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Plot the losses of your agent during the course of training. Discuss the shapes of the curves and why they might differ from supervised learning.}{14}{subsection.2.3}
+\contentsline {subsubsection}{\numberline {2.3.1}Pong}{15}{subsubsection.2.3.1}
+\contentsline {subsubsection}{\numberline {2.3.2}Ms Pacman}{16}{subsubsection.2.3.2}
+\contentsline {subsubsection}{\numberline {2.3.3}Boxing}{17}{subsubsection.2.3.3}
+\contentsline {subsection}{\numberline {2.4}Report the final performance in terms of cumulative undiscounted rewards per episode of your trained agent, averaged over 100 episodes. Describe any modifications to the above by which you were able to improve performance in this limited data regime.}{18}{subsection.2.4}

@@ -1,0 +1,179 @@
+% contains all used global packages
+\ProvidesPackage{mystyle}
+
+% --- all packages
+\usepackage{tikz}
+\usepackage{xfrac}
+\usepackage{lscape}
+\usepackage{subfig}
+\usetikzlibrary{arrows ,bending, calc, automata, chains, arrows.meta, quotes}
+\tikzset{->,>=stealth',auto,node distance=3cm,
+  thick,main node/.style={circle,draw,minimum size=1cm,inner sep=10pt},}
+\usepackage{bbold}
+\usepackage{fancyhdr}
+\usepackage{booktabs}
+\usepackage{siunitx} % for scientific notation
+\usepackage[hidelinks]{hyperref}
+\usepackage{xcolor}
+\hypersetup{
+    colorlinks,
+    linkcolor={red!50!black},
+    citecolor={blue!50!black},
+    urlcolor={blue!80!black}
+}
+\usepackage{extramarks}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+\usepackage{tikz}
+\usepackage[plain]{algorithm}
+\usepackage{enumitem}
+\usepackage{tabu}
+\usepackage{bm}
+\usepackage{amssymb}
+
+% for pseudocode etc
+\usepackage{algpseudocode}
+
+\usetikzlibrary{automata,positioning}
+\usepackage{algorithm}
+\usepackage[parfill]{parskip}
+\usepackage{listings}
+
+\usepackage{physics}
+\usepackage{verbatim}
+
+\allowdisplaybreaks[1]
+
+% conditional independence
+\newcommand{\bigCI}{\mathrel{\text{\scalebox{1.07}{$\perp\mkern-10mu\perp$}}}}
+\newcommand{\nbigCI}{\centernot{\bigCI}}
+\newcommand{\CI}{\mathrel{\perp\mspace{-10mu}\perp}}
+\newcommand{\nCI}{\centernot{\CI}}
+
+% math boldface
+\newcommand{\mbf}[1]{\mathbf{#1}}
+
+% argmin, argmax, various other word operators
+\DeclareMathOperator*{\argmin}{arg\,min}
+\DeclareMathOperator*{\argmax}{arg\,max}
+\DeclareMathOperator*{\sign}{\text{sign}}
+
+% --- parameters for code listing ---
+\usepackage{color}
+ 
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+ 
+\lstdefinestyle{mystyle}{
+    backgroundcolor         =\color{backcolour},   
+    commentstyle            =\color{codegreen},
+    keywordstyle            =\color{magenta},
+    numberstyle             =\tiny\color{codegray},
+    stringstyle             =\color{codepurple},
+    basicstyle              =\ttfamily\footnotesize,
+    breakatwhitespace       =false,         
+    breaklines              =true,                 
+    captionpos              =b,                    
+    keepspaces              =true,                 
+    numbers                 =left,                    
+    numbersep               =5pt,                  
+    showspaces              =false,                
+    showstringspaces        =false,
+    showtabs                =false,                  
+    tabsize                 =2
+}
+ 
+\lstset{style=mystyle}
+
+% ---- Class info -------
+%
+% Homework Details
+%   - Title
+%   - Due date
+%   - Class
+%   - Section/Time
+%   - Instructor
+%   - Author
+%
+%\numberwithin{equation}{section}
+%\renewcommand{\theequation}{\theparentequation.\arabic{equation}} % subordinate euqations with numbers
+
+\newcommand{\hmwkTitle}{Assignment 3}
+\newcommand{\hmwkDueDate}{11th of April, 2017}
+\newcommand{\hmwkClass}{Advanced methods in Machine Learning}
+\newcommand{\hmwkClassTime}{}
+\newcommand{\hmwkClassInstructor}{}
+\newcommand{\hmwkAuthorName}{Isak Falk (16095283)}
+\newcommand{\hmwkAuthorSurname}{}
+\newcommand{\githubAccnt}{Github: isakfalk}
+
+%
+% Title Page
+%
+\title{
+    \vspace{2in}
+    \textmd{\textbf{\hmwkClass\\ \hmwkTitle}}\\
+    \vspace{0.5in}\large{\textit{\hmwkAuthorName}\\ \textit{\githubAccnt}}\\
+    \normalsize\vspace{0.1in}\small{Due\ on\ \hmwkDueDate}\\
+    \vspace{3in}
+}
+% -------------------------------
+
+%
+% Basic Document Settings
+%
+
+\topmargin=-0.45in
+\evensidemargin=0in
+\oddsidemargin=0in
+\textwidth=6.5in
+\textheight=9.0in
+\headsep=0.25in
+
+\linespread{1.1}
+
+\pagestyle{fancy}
+\lhead{\hmwkAuthorSurname}
+\chead{\hmwkClass\ : \hmwkTitle}
+\rhead{\firstxmark}
+\lfoot{\lastxmark}
+\cfoot{\thepage}
+
+\renewcommand\headrulewidth{0.4pt}
+\renewcommand\footrulewidth{0.4pt}
+
+\setlength\parindent{0pt}
+
+%
+% Create Problem Sections
+%
+
+% argmax
+
+%
+% Various Helper Commands
+%
+
+% Useful for algorithms
+\newcommand{\alg}[1]{\textsc{\bfseries \footnotesize #1}}
+
+% For derivatives
+\newcommand{\deriv}[1]{\frac{\mathrm{d}}{\mathrm{d}x} (#1)}
+
+% For partial derivatives
+\newcommand{\pderiv}[2]{\frac{\partial}{\partial #1} (#2)}
+
+% Integral dx
+\newcommand{\dx}{\mathrm{d}x}
+
+% Alias for the Solution section header
+\newcommand{\solution}{\textbf{\large Solution}}
+
+% Probability commands: Expectation, Variance, Covariance, Bias
+\newcommand{\E}[1]{{\mathbb E}\left[ #1 \right]}
+\newcommand{\Var}{\mathrm{Var}}
+\newcommand{\Cov}{\mathrm{Cov}}
+\newcommand{\Bias}{\mathrm{Bias}}

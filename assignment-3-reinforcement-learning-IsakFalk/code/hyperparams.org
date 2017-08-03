@@ -1,0 +1,23 @@
+* Hyperparameters
+** A4, 5
+*** 30 units
+    - optimizer: ADAM
+    - learning rate: 0.0001
+*** 100 units
+    - optimizer: ADAM
+    - learning rate: 0.0001
+*** 1000 units
+      - optimizer: ADAM
+      - learning rate: 0.0001
+** A6
+*** 100 units
+    - optimizer: ADAM
+    - learning rate: 0.0001 to 0.000001 (polynomial decay)
+    - batch size: 64
+    - buffer size: 3000
+** A7
+*** 100 units
+    - optimizer: ADAM
+    - learning rate: 0.0001
+    - batch size: 64
+    - buffer size: 3000

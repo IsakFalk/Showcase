@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/isak/University/UCL_CSML/Modules/Advanced_methods_in_ML/Assignments/assignment-3-reinforcement-learning-IsakFalk/models/save/A6Test-lr0.0001_1491736882/model.ckpt"
+all_model_checkpoint_paths: "/home/isak/University/UCL_CSML/Modules/Advanced_methods_in_ML/Assignments/assignment-3-reinforcement-learning-IsakFalk/models/save/A6Test-lr0.0001_1491736882/model.ckpt"

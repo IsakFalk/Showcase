@@ -1,0 +1,13 @@
+# Fdb version 3
+["pdflatex"] 1489006121 "mystyle.sty" "mystyle.pdf" "mystyle" 1489006121
+  "/etc/texmf/web2c/texmf.cnf" 1476032495 1101 af7716885e081ab43982cab7b4672c1a ""
+  "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
+  "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm" 1136768653 768 1321e9409b4137d6fb428ac9dc956269 ""
+  "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1458942643 31351 b32c45dce4a01cb7b53ed90c546614ca ""
+  "/usr/share/texmf/web2c/texmf.cnf" 1458942643 31351 b32c45dce4a01cb7b53ed90c546614ca ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1476032564 3857020 b8a426b918023fd90aaf570107a7e5cf ""
+  "mystyle.aux" 1489006121 8 a94a2480d3289e625eea47cd1b285758 ""
+  "mystyle.sty" 1489006120 4516 20cecf5f7a4f5f15447de26d69a2f87e ""
+  (generated)
+  "mystyle.pdf"
+  "mystyle.log"

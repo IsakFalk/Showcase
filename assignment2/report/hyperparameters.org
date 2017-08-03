@@ -1,0 +1,16 @@
+* Hyperparameters for the different models
+** Task 1
+** LSTM
+*** 32 units
+**** Learning_rate: 0.002
+**** Batch_size: 256
+**** Dropout_prob: 0.85
+**** Epochs: 40
+*** 64 units
+*** 128 units
+*** 3 layers, 32 units
+** GRU
+*** 32 units
+*** 64 units
+*** 128 units
+*** 3 layers, 32 units

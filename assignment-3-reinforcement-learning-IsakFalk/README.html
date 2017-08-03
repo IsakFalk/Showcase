@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>README.html</title>
+
+</head>
+
+<body>
+
+<h1>Name: John Isak Texas Falk</h1>
+
+<h1>Student Number: 16095283</h1>
+
+<h1>assignment-3-reinforcement-learning-IsakFalk</h1>
+
+<h1>Setup</h1>
+
+<h2>Python version</h2>
+
+<p>Version 3.6</p>
+
+<h2>Library dependencies</h2>
+
+<p>Tensorflow 1.0.0
+matplotlib 2.0.0
+seaborn 0.7.1
+numpy: 1.12.0
+scipy: 0.19.0</p>
+
+<h2>Installing from conda</h2>
+
+<p>Assuming that you have conda installed on the computer, installing the environment is straightforward. Without being in a virtual environment, from the command line type the command</p>
+
+<p><code>bash
+conda env create -f environment.yml
+</code></p>
+
+<p>from the parent directory. This will create the same environment as mine which you can remove after you are done.</p>
+
+<h1>Directories</h1>
+
+<h2>Report</h2>
+
+<p>This directory only contain the pdf of the report for the assignment.</p>
+
+<h2>models</h2>
+
+<p>In this directory we have one folder 'best_models' which contain the optimal saved models for each of the exercises which need saved models. For A, this is 3, 4, 5, 6, 7 and for B, this is one for each game, Pong, MsPacman, Boxing.</p>
+
+<h2>code</h2>
+
+<p>The python scripts for all of the models and other needed classes and functions. Most of the python scripts have command line arguments. Finding out which ones can be set is simple, run the file with</p>
+
+<p><code>
+</code></p>
+
+<p>We have the following.</p>
+
+<h3>SETTINGS.py</h3>
+
+<p>Paths, constants and variable definitions used in the scripts.</p>
+
+<h3>tf_utils.py</h3>
+
+<p>Utility functions with regards to tensorflow.</p>
+
+<h3>A_utils.py</h3>
+
+<p>Python file containing all of the needed classes for the different agents, estimators and environments. All of the estimators has been given names which reflect what kind of Q-value function they are, going with the earlier estimators first. Same thing for the agents. These classes are used to train and evaluate the performance of the agents/estimator functions in the scripts A'x'.py where 'x' is from 1 to 7.</p>
+
+<h3>B.py</h3>
+
+<p>Same as A_utils.py but for part B of the assignment.</p>
+
+<h3>A1.py</h3>
+
+<p>Script for running A1.</p>
+
+<h3>A2.py</h3>
+
+<p>Script for running A2.</p>
+
+<h3>A3.py</h3>
+
+<p>Script for running A3.</p>
+
+<h3>A45.py</h3>
+
+<p>Script for running A4 and A5.</p>
+
+<h3>A6.py</h3>
+
+<p>Script for running A6.</p>
+
+<h3>A7.py</h3>
+
+<p>Script for running A7.</p>
+
+<h3>B1.py</h3>
+
+<p>Script for running B1.</p>
+
+<h3>B2.py</h3>
+
+<p>Script for running B2.</p>
+
+<h3>B3.py</h3>
+
+<p>Script for running B3.</p>
+
+<h3>B4.py</h3>
+
+<p>Script for running B4. This script can be used to check the models since it loads the saved models and evaluates them. Number of episodes to average over can be selected from the command line.</p>
+
+<h3>evaluate_A.py</h3>
+
+<p>Evaluate all of the models that was saved for A.</p>
+
+</body>
+</html>
